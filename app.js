@@ -32,7 +32,7 @@ app.use((req , res , next) => {
     next();
 });
 
-app.use("/" , express.static('fontend/capitall-frontend/dist/capitall-frontend'))
+app.use("/frontend" , express.static('fontend/capitall-frontend/dist/capitall-frontend'))
 app.use("/commodity", commodityRoutes)
 app.use("/users", userRoutes)
 
