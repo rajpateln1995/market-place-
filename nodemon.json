@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "raj81085",
+        "JWT_KEY": "peaky_blinders"
+    }
+}
